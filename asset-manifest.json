@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ticket-desk/static/css/main.3f0ae634.css",
+    "main.js": "/ticket-desk/static/js/main.c98b422b.js",
+    "index.html": "/ticket-desk/index.html",
+    "main.3f0ae634.css.map": "/ticket-desk/static/css/main.3f0ae634.css.map",
+    "main.c98b422b.js.map": "/ticket-desk/static/js/main.c98b422b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f0ae634.css",
+    "static/js/main.c98b422b.js"
+  ]
+}
