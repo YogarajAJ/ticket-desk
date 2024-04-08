@@ -1,19 +1,14 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Tickets from "../../organisms/tickets";
 import TicketDetails from "../../organisms/tickets/TicketDetails";
 
 const Navbar = () => {
   return (
     <Routes>
-      <Route path="/" exact element={<Tickets />} />
-      <Route
-        exact
-        path="/:id"
-        element={
-          <TicketDetails />
-        }
-      />
+      <Route exact path="/" element={<Navigate replace to="/ticket-desk" />} />
+      <Route exact path="/ticket-desk" element={<Tickets />} />
+      <Route path="/ticket-desk/:id" element={<TicketDetails />} />
     </Routes>
   );
 };

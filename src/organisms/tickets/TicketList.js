@@ -15,7 +15,7 @@ const TicketList = () => {
   const tickets = useSelector(({ ticketInfo }) => ticketInfo?.tickets || []);
 
   const columns = [
-    { field: "id",  headerName: "Ticket ID" },
+    { field: "id", headerName: "Ticket ID" },
     { field: "title", flex: 1, headerName: "Subject" },
     {
       field: "priority",
@@ -50,7 +50,7 @@ const TicketList = () => {
         );
       },
     },
-    {  field: "createdAt", headerName: "Requested Date", width: 200 },
+    { field: "createdAt", headerName: "Requested Date", width: 200 },
     {
       flex: 0.5,
       field: "detailsButton",
@@ -71,7 +71,7 @@ const TicketList = () => {
   ];
 
   const openTicketDetails = (ticketId = "") => {
-    navigate(`/${ticketId}`);
+    navigate(`/ticket-desk/${ticketId}`);
   };
 
   const handleViewDetails = (event, id) => {

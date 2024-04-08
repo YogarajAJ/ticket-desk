@@ -15,8 +15,8 @@ const Tickets = () => {
         <Typography align="left" fontWeight={600} variant="h4">
           Tickets
         </Typography>
-        <Button variant="contained" onClick={openNewTicketForm}>
-          New Ticket
+        <Button variant="contained" color="success" onClick={openNewTicketForm}>
+          Create New Ticket
         </Button>
       </Stack>
       <TicketList />
