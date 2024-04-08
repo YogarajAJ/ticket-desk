@@ -4,6 +4,17 @@ Ticket Desk - is a Ticketing System which helps in creating New Ticket & Resolvi
 
 # Application Flow
 
+    - User will be landing on Tickets List Page - where all the Tickets will be rendered in a tabular view.
+    - User can able to filter and sort based on each column.
+    - For More details -> User can click on 'View Details' Button, which will opens up Ticket Details page.
+    - In Ticket Details -> User can able to Add Resolution for the Ticket and resolve the ticket.
+    
+
+### New Ticket
+    - User can Create a New Ticket by Clicking on 'Create New Ticket' Button on Ticket List page.
+    - This will trigger a popup - which could require few information to create a Ticket.
+    - After Creating a ticket, The System automatically adds the ticket into the existing Ticket List.
+
 
 # Installation 
 
