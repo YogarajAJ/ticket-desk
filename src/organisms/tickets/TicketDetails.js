@@ -25,7 +25,7 @@ const TicketDetails = () => {
   }, [id, tickets]);
 
   const backToTickets = () => {
-    navigate(-1);
+    navigate('/');
   };
 
   const isResolvedTicket = ticketData?.status === "RESOLVED";
