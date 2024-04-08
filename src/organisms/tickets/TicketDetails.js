@@ -63,10 +63,20 @@ const TicketDetails = () => {
         </Box>
         <Box>
           <Typography variant="h6" fontWeight={600}>
-          {ticketData?.title}
+            {ticketData?.title}
           </Typography>
           <Typography>{ticketData?.description}</Typography>
         </Box>
+        {isResolvedTicket ? (
+          <Box>
+            <Typography variant="h6" fontWeight={600}>
+              Resolution
+            </Typography>
+            <Typography>{ticketData?.resolution}</Typography>
+          </Box>
+        ) : (
+          <></>
+        )}
       </Stack>
       {isResolvedTicket ? (
         <Typography>
