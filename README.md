@@ -2,6 +2,9 @@ Ticket Desk
 
 Ticket Desk - is a Ticketing System which helps in creating New Ticket & Resolving opened Tickets.
 
+Application is deployed using Github pages - 
+https://yogarajaj.github.io/ticket-desk
+
 # Application Flow
 
     - User will be landing on Tickets List Page - where all the Tickets will be rendered in a tabular view.
